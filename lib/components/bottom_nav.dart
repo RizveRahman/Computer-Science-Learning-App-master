@@ -2,6 +2,7 @@ import 'package:computer_science_in_bangla/pages/navigation_page/Courses.dart';
 import 'package:computer_science_in_bangla/pages/navigation_page/explore_qs.dart';
 import 'package:computer_science_in_bangla/pages/navigation_page/home_page.dart';
 import 'package:computer_science_in_bangla/pages/navigation_page/profile_page.dart';
+import 'package:computer_science_in_bangla/pages/profile/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
@@ -21,7 +22,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
     const HomePage(),
     const ExploreCourses(),
     const Courses(),
-    ProfilePage(),
+    Profile(),
   ];
 
   int currentIndex = 0;
